@@ -96,7 +96,7 @@ final class Converter
             \hex2bin(\str_replace('-', '', $uuid)),
         ));
 
-        // c.f. https://github.com/valohai/ulid2/blob/7e6093aae8c99dd68fa4f849718dbb219fde8b9f/ulid2.py#L73-L100
+        // cf. https://github.com/valohai/ulid2/blob/7e6093aae8c99dd68fa4f849718dbb219fde8b9f/ulid2.py#L73-L100
         $ulid = \implode('', [
             self::ULID_TABLE[($chr[0] & 224) >> 5],
             self::ULID_TABLE[$chr[0] & 31],
