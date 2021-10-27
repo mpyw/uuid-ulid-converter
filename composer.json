@@ -1,0 +1,31 @@
+{
+    "name": "mpyw/uuid-ulid-converter",
+    "description": "UUID <=> ULID bidirectional converter",
+    "type": "library",
+    "license": "MIT",
+    "require": {
+        "php": ">=7.4"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Mpyw\\UuidUlidConverter\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Mpyw\\UuidUlidConverter\\Tests\\": "tests/"
+        }
+    },
+    "authors": [
+        {
+            "name": "mpyw",
+            "email": "ryosuke_i_628@yahoo.co.jp"
+        }
+    ],
+    "scripts": {
+        "test": "vendor/bin/phpunit tests"
+    }
+}
