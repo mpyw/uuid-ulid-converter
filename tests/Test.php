@@ -50,7 +50,7 @@ class Test extends TestCase
         );
     }
 
-    public function testUpperCaseUuid(): void
+    public function testUppercaseUuid(): void
     {
         $this->assertSame(
             'C1418511-3B96-4E99-AC74-74904BDAF8FD',
