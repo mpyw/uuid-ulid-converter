@@ -23,8 +23,8 @@ var_dump(Converter::uuidToUlid('c1418511-3b96-4e99-ac74-74904bdaf8fd'));
 ## API
 
 ```php
-string Converter::uuidToUlid(string $uuid, bool $lowercase = false)
-string Converter::ulidToUuid(string $ulid, bool $uppercase = false)
+static string Converter::uuidToUlid(string $uuid, bool $lowercase = false)
+static string Converter::ulidToUuid(string $ulid, bool $uppercase = false)
 ```
 
 **NOTE: UUID is lowercase by default, whereas ULID is uppercase by default.**
