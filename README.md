@@ -63,9 +63,7 @@ $dates = [
 function createUuidRange(array $dates): array
 {
     $createPart = fn (\DateTimeInterface $date, bool $isEnd) => Converter::ulidToUuid(
-        Ulid::fromTimestamp(
-            intval($date->format('U') . substr($date->format('u'), 0, 3)),
-        )->getTime()
+        Ulid::fromTimestamp(round((int)$date->format('Uu') / 1000))->getTime()
         . str_repeat($isEnd ? 'Z' : '0', 16),
     );
     return [
