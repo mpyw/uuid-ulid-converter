@@ -11,8 +11,8 @@ composer require mpyw/uuid-ulid-converter
 ## API
 
 ```php
-static string Converter::uuidToUlid(string $uuid, bool $lowercase = false)
-static string Converter::ulidToUuid(string $ulid, bool $uppercase = false)
+public static Converter::uuidToUlid(string $uuid, bool $lowercase = false): string
+public static Converter::ulidToUuid(string $ulid, bool $uppercase = false): string
 ```
 
 **NOTE: UUID is lowercase by default, whereas ULID is uppercase by default.**
