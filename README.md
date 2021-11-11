@@ -1,5 +1,7 @@
 # uuid-ulid-converter
 
+[![Build Status](https://github.com/mpyw/uuid-ulid-converter/actions/workflows/ci.yml/badge.svg?branch=master)](https://github.com/mpyw/uuid-ulid-converter/actions) [![Coverage Status](https://coveralls.io/repos/github/mpyw/uuid-ulid-converter/badge.svg?branch=master)](https://coveralls.io/github/mpyw/uuid-ulid-converter?branch=master)
+
 [UUID](https://datatracker.ietf.org/doc/html/rfc4122) &lt;=&gt; [ULID](https://github.com/ulid/spec) bidirectional converter
 
 ## Installing
