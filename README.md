@@ -10,6 +10,15 @@
 composer require mpyw/uuid-ulid-converter
 ```
 
+## Requirements
+
+| Package | Version |
+|:---|:---|
+| PHP | <code>^8.2</code> |
+
+> [!NOTE]
+> Older versions have outdated dependency requirements. If you cannot prepare the latest environment, please refer to past releases.
+
 ## API
 
 ```php
